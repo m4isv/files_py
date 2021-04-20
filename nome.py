@@ -1,12 +1,5 @@
-nome = str(input("digite Seu Nome Completo\n")).strip()
+print("\t \033[45m bem vindo \033[m")
+nome = input("\t qual e seu nome? ")
+idade = input("\t qua sua idade? ")
 
-print("Analizando Seu nome....")
-
-print("Seu nome em Maiuscula e {}".format(nome.upper()))
-
-print("Seu nome em Minuscula e {}".format(nome.lower()))
-
-print("Seu nome Tem Ao todo {} Letras".format(len(nome) - nome.count(" ")))
-
-print("Seu primeiro Nome tem {} letras".format(nome.find(" ")))
-
+print(f"\t \033[45m Seu Nome e {nome} vc tem {idade} anos\033[m")
